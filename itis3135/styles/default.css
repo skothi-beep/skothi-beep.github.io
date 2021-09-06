@@ -9,6 +9,16 @@ body {
 header {
     font-weight: bold;
     color:brown;
+    text-align: center;
+}
+
+nav {
+    font-weight: bold;
+    text-align: center;
+}
+
+figure {
+    text-align: center;
 }
 
 footer {
