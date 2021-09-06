@@ -26,3 +26,9 @@ nav {
 figure {
     text-align: center;
 }
+
+footer {
+    color: black;
+    font-weight: bold;
+    text-align: center;
+}
