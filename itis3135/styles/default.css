@@ -6,6 +6,10 @@ body {
     margin-right: 60px;
 }
 
+h2 {
+    text-align: center;
+}
+
 header {
     font-weight: bold;
     color:brown;
