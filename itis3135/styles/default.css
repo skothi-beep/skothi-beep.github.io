@@ -1,13 +1,29 @@
 
 body {
     font-family:sans-serif;
-    background-color:cornsilk;
+    background-color:rgb(223, 169, 187);
     margin-left: 60px;
     margin-right: 60px;
+    color: darkblue;
 }
 
-h2 {
+h1, h2, h3 {
+    font-family: Verdana;
     text-align: center;
+}
+
+p {
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+    color: darkred;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: firebrick;
 }
 
 header {
@@ -29,4 +45,16 @@ footer {
     color: black;
     font-weight: bold;
     text-align: center;
+}
+
+button {
+    background-color: darkblue;
+    color: white;
+}
+
+#Name, #Phone, #Email {
+    border-color: tomato;
+    border-width: medium;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
 }
