@@ -2,7 +2,7 @@
 <html lang = "en">
 <head>
     <meta charset = "UTF-8"> 
-    <link href="https://webpages.uncc.edu/skothi/itis3135/styles/activity2.css" rel="stylesheet" type="text/css">
+    <link href="styles/default.css" rel="stylesheet" type="text/css">
     <title>Shriya Kothi, ITSC3135-051, Table</title>
 </head>
 
@@ -12,23 +12,35 @@
 </header>
 
 <nav>
-    <a href = "https://webpages.uncc.edu/skothi/itis3135/index.html">Index</a>
+    <a href = "index.html">Index</a>
      ||
-    <a href = "https://webpages.uncc.edu/skothi/itis3135/Introduction.html">Introduction</a>
+    <a href = "Introduction.html">Introduction</a>
      ||
     <a href = "contract.html">Contract</a>
      ||
-    <a href = "https://webpages.uncc.edu/skothi/itis3135/Table.html">HTML Tables</a>
+    <a href = "Table.html">HTML Tables</a>
      ||
-    <a href="https://webpages.uncc.edu/skothi/itis3135/form.html">HTML Forms</a>
+    <a href = "form.html">HTML Forms</a>
      ||
-    <a href="https://webpages.uncc.edu/skothi/itis3135/website_evaluations.html">Website Evaluations</a>
+    <a href = "website_evaluations.html">Website Evaluations</a>
+     ||
+    <a href = "https://webpages.uncc.edu/skothi/itis3135/stuff/COOLSK%20WEBSITE;).htm">CRAPPY Webpage</a>
+     ||
+    <a href = "brand-sapphire-kangaroo.html">Brand Webpage</a>
+     ||
+    <a href = "first-scripts.html">Script</a>
+     ||
+    <a href = "polygon.html">Polygon</a>
+     ||
+    <a href = "calculator_try.html">Calculator Try</a>
+     ||
+    <a href = "calculator_fcc.html">Calculator</a>
 </nav>
 
 <main>
     <h2>HTML Tables</h2>
     <h3>My Tabular Data</h3>
-        <ol>
+        <ol class="tabularData">
             <li>Sam Smith, ssmith@uncc.edu, 3</li>
             <li>Emily Carlson, ecarlson@gmail.com, 2</li>
             <li>Sierra Heed, sierrah@yahoo.com, 5</li>
@@ -41,122 +53,127 @@
     
     <h3>Employee Data in Simple Table</h3>
         <table>
-            <tr>
-                <th>Name</th>
-                <th>Email</th>
-                <th>Years of Service</th>
-            </tr>
-            <tr>
-                <td>Sam Smith</td>
-                <td>ssmith@uncc.edu</td>
-                <td>3</td>
-            </tr>
-            <tr>
-                <td>Emily Carlson</td>
-                <td>ecarlson@gmail.com</td>
-                <td>2</td>
-            </tr>
-            <tr>
-                <td>Sierra Heed</td>
-                <td>ctaylor@uncc.edu</td>
-                <td>7</td>
-            </tr>
-            <tr>
-                <td>Caleb Taylor</td>
-                <td>sierrah@yahoo.com</td>
-                <td>5</td>
-            </tr>
-            <tr>
-                <td>Shriya Kothi</td>
-                <td>skothi@uncc.edu</td>
-                <td>14</td>
-            </tr>
-            <tr>
-                <td>Caroline Anderson</td>
-                <td>cand@yahoo.com</td>
-                <td>24</td>
-            </tr>
-            <tr>
-                <td>Amelia Brown</td>
-                <td>ameliab@gmail.com</td>
-                <td>37</td>
-            </tr>
-            <tr>
-                <td>David Miller</td>
-                <td>dmiller@gmail.com</td>
-                <td>46</td>
-            </tr>
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Email</th>
+                    <th>Years of Service</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Sam Smith</td>
+                    <td>ssmith@uncc.edu</td>
+                    <td>3</td>
+                </tr>
+                <tr>
+                    <td>Emily Carlson</td>
+                    <td>ecarlson@gmail.com</td>
+                    <td>2</td>
+                </tr>
+                <tr>
+                    <td>Sierra Heed</td>
+                    <td>ctaylor@uncc.edu</td>
+                    <td>7</td>
+                </tr>
+                <tr>
+                    <td>Caleb Taylor</td>
+                    <td>sierrah@yahoo.com</td>
+                    <td>5</td>
+                </tr>
+                <tr>
+                    <td>Shriya Kothi</td>
+                    <td>skothi@uncc.edu</td>
+                    <td>14</td>
+                </tr>
+                <tr>
+                    <td>Caroline Anderson</td>
+                    <td>cand@yahoo.com</td>
+                    <td>24</td>
+                </tr>
+                <tr>
+                    <td>Amelia Brown</td>
+                    <td>ameliab@gmail.com</td>
+                    <td>37</td>
+                </tr>
+                <tr>
+                    <td>David Miller</td>
+                    <td>dmiller@gmail.com</td>
+                    <td>46</td>
+                </tr>
+            </tbody>
         </table>
         <h3>Employee Data in Complex Table</h3>
         <figure>
         <table>
-            <tr>
-                <th>Department</th>
-                <th>Name</th>
-                <th>Email</th>
-                <th>Years of Service</th>
-                <th>Monthly Salary</th>
-                
-            </tr>
-            <tr>
-                <td rowspan= 2>Marketing</td>
-                <td>Sam Smith</td>
-                <td>ssmith@uncc.edu</td>
-                <td>3</td>
-                <td>$2,500</td>
-            </tr>
-            <tr>
-                <td>Emily Carlson</td>
-                <td>ecarlson@gmail.com</td>
-                <td>2</td>
-                <td>$3,750</td>
-            </tr>
-            <tr>
-                <td>Sales</td>
-                <td>Sierra Heed</td>
-                <td>ctaylor@uncc.edu</td>
-                <td>7</td>
-                <td>$3,000</td>
-            </tr>
-            <tr>
-                <td>Insurance</td>
-                <td>Caleb Taylor</td>
-                <td>sierrah@yahoo.com</td>
-                <td>5</td>
-                <td>$4,200</td>
-            </tr>
-            <tr>
-                <td>Marketing</td>
-                <td>Shriya Kothi</td>
-                <td>skothi@uncc.edu</td>
-                <td>14</td>
-                <td>$3,500</td>
-            </tr>
-            <tr>
-                <td rowspan= 2>Sales</td>
-                <td>Caroline Anderson</td>
-                <td>cand@yahoo.com</td>
-                <td>24</td>
-                <td>$5,000</td>
-            </tr>
-            <tr>
-                <td>Amelia Brown</td>
-                <td>ameliab@gmail.com</td>
-                <td>37</td>
-                <td>$4,500</td>
-            </tr>
-            <tr>
-                <td>Marketing</td>
-                <td>David Miller</td>
-                <td>dmiller@gmail.com</td>
-                <td>46</td>
-                <td>$6,500</td>
-            </tr>
-            <tr>
-                <th colspan=3>Total Years of Service</th>
-                <td>138</td>
-                <td>$32,950</td>
-            </tr>
+            <thead>
+                <tr>
+                    <th>Department</th>
+                    <th scope="col">Name</th>
+                    <th scope="col">Email</th>
+                    <th scope="col">Years of Service</th>
+                    <th scope="col">Monthly Salary</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th rowspan = 2 scope="row" class="thead">Marketing</th>
+                    <td>Sam Smith</td>
+                    <td>ssmith@uncc.edu</td>
+                    <td>3</td>
+                    <td>$2,500</td>
+                </tr>
+                <tr>
+                    <td>Emily Carlson</td>
+                    <td>ecarlson@gmail.com</td>
+                    <td>2</td>
+                    <td>$3,750</td>
+                </tr>
+                <tr>
+                    <th rowspan = 2 scope="row" class="thead">Insurance</th>
+                    <td>Shriya Kothi</td>
+                    <td>skothi@uncc.edu</td>
+                    <td>14</td>
+                    <td>$3,500</td>
+                </tr>
+                <tr>
+                    <td>Caleb Taylor</td>
+                    <td>sierrah@yahoo.com</td>
+                    <td>5</td>
+                    <td>$4,200</td>
+                </tr>
+                <tr>
+                    <th rowspan= 2 scope="row" class="thead">Sales</th>
+                    <td>David Miller</td>
+                    <td>dmiller@gmail.com</td>
+                    <td>46</td>
+                    <td>$6,500</td>
+                </tr>
+                <tr>
+                    <td>Caroline Anderson</td>
+                    <td>cand@yahoo.com</td>
+                    <td>24</td>
+                    <td>$5,000</td>
+                </tr>
+                <tr>
+                    <th rowspan= 2 scope="row" class="thead">Human Resources</th>
+                    <td>Amelia Brown</td>
+                    <td>ameliab@gmail.com</td>
+                    <td>37</td>
+                    <td>$4,500</td>
+                </tr>
+                <tr>
+                    <td>Sierra Heed</td>
+                    <td>ctaylor@uncc.edu</td>
+                    <td>7</td>
+                    <td>$3,000</td>
+                </tr>
+                <tr>
+                    <th colspan=3 class="thead">Total Years of Service</th>
+                    <td>138</td>
+                    <td>$32,950</td>
+                </tr>
+            </tbody>
         </table>
         <figcaption>Employee Information</figcaption>
     </figure>

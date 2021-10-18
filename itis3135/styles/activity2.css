@@ -39,9 +39,9 @@ table {
     margin: 20px;
       }
     
-thead {
+/* thead {
     background-color:green;
-    }
+    } */
 
 th, td {
     border: 1px solid black;

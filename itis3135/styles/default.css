@@ -2,8 +2,6 @@
 body {
     font-family:sans-serif;
     background-color:rgb(223, 169, 187);
-    margin-left: 60px;
-    margin-right: 60px;
     color: darkblue;
 }
 
@@ -14,6 +12,7 @@ h1, h2, h3 {
 
 p {
     font-weight: bold;
+    text-align: center;
 }
 
 a {
@@ -41,20 +40,129 @@ figure {
     text-align: center;
 }
 
+.list {
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
 footer {
     color: black;
     font-weight: bold;
     text-align: center;
 }
 
-button {
-    background-color: darkblue;
+.button {
+    background-color:darkred;
     color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-#Name, #Phone, #Email {
+.script {
+    text-align: center;
+}
+
+#Name, #Phone, #Email, #employeeNames, #salary {
     border-color: tomato;
     border-width: medium;
     font-family: 'Courier New', Courier, monospace;
     font-weight: bold;
 }
+
+/*ITIS 3135 Activity 2 css */
+    table {
+        border-radius: 30px;
+        border-collapse: collapse;
+        margin: auto;
+        }
+
+    th, td {
+        border: 1px solid black;
+        padding: .2em 1em .2em .5em;
+        text-align: left;
+        vertical-align: middle;
+        }
+     
+    .right {
+        text-align: right;
+        }
+    
+    thead {
+        background-color:lightskyblue;
+    }
+
+    .thead {
+        background-color:lightskyblue;
+    }
+
+    tbody tr:nth-child(odd) td {
+        background-color:lightcyan;
+    } 
+    
+    .tabularData {
+        margin: auto;
+        display: table;
+    }
+
+/*ITIS 3135 Activity 7 css */
+    .calculator {
+        border-radius: 12px;
+        box-shadow: 0 0 40px 0px rgba(0, 0, 0, 0.15);
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2em;
+        max-width: 20em;
+        overflow: hidden;
+    }
+    
+    .calculator__display {
+        background-color: #363636;
+        color: rgb(120, 140, 194);
+        font-size: 1.714285714em;
+        padding: 0.5em 0.75em;
+        text-align: right;
+    }
+    
+    .calculator__keys {
+        background-color: rgb(120, 140, 194);
+        display: grid;
+        grid-gap: 8px;
+        grid-template-columns: repeat(4, 1fr);
+    }
+    
+    .calculator__keys > * {
+        background-color: rgb(216, 126, 186);
+        padding: 1.5em 2.25em;
+        position: relative;
+        text-align: center;
+    }
+    
+    .calculator__keys > *:active::before,
+    .calculator__keys > .is-depressed::before {
+        background-color: rgba(0, 0, 0, 0.2);
+        bottom: 0;
+        box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5) inset;
+        content: "";
+        left: 0;
+        opacity: 0.3;
+        position: absolute;
+        right: 0;
+        top: 0;
+        z-index: 1;
+    }
+    
+    .key--operator {
+        background-color: rgb(216, 126, 186);
+    }
+    
+    .key--equal {
+        background-image: linear-gradient(to bottom, #fe886a, #ff7033);
+        grid-column: -2;
+        grid-row: 2 / span 4;
+    }
+        
+/*ITIS 3135 Activity 8 css */
+    .array {
+        text-align: center;
+        font: bold;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }

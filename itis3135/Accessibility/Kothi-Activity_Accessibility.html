@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta name="Description" content="Testing website for accessibility.">
+
+  <!-- css -->
+  <link rel="stylesheet" href="Kothi-Activity_Accessibility.css">
+  <title>Test For Accessibility</title>
+
+</head>
+
+<body>
+  <header>
+  </header>
+  <main>
+    <h3>Candle Delight</h3>
+    <table class="center">
+
+      <caption></caption>
+      <thead>
+        <tr>
+          <!-- identify table headers <th> with scope attribute -->
+          <th scope="col">TYPE</th>
+          <th scope="col">PRODUCT</th>
+          <th scope="col">FEATURES</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <th scope="row">Birthday Candles</th>
+          <td><img src = "https://webpages.uncc.edu/skothi/itis3135/Accessibility/images/Birthday-Candles.jpg" width="200" height= "200" alt = "Image of birthday candles"></td>
+          <td>
+            <ol>
+              <li>Comes in a range of fun, vibrant colors</li>
+              <li>Small and slender forms allow you to add as many or as few of them to a dessert as you desire</li>
+              <li>Offers a way to personalize customers' desserts on birthdays and anniversaries</li>
+            </ol>
+          </td>
+        </tr>
+        <tr>
+            <th scope="row">Voltives</th>
+            <td><img src = "https://webpages.uncc.edu/skothi/itis3135/Accessibility/images/voltives.jpeg" width="200" height= "200" alt = "Image of voltives"></td>
+            <td>
+              <ol>
+                <li>Inexpensive and easy to use</li>
+                <li>Bigger than tea lights to provide longer burn times, making them better for longer events</li>
+              </ol>
+            </td>
+          </tr>
+        <tr>
+            <th scope="row">Taper Candles</th>
+            <td><img src = "https://webpages.uncc.edu/skothi/itis3135/Accessibility/images/taper-candles.jpg" width="200" height= "200" alt = "Image of taper candles"></td>
+            <td>
+              <ol>
+                <li>Commonly known as window candles</li>
+                <li>Long, slender constructions add dimension to table tops</li>
+              </ol>
+            </td>
+        </tr>
+      </tbody>
+    </table>
+    <caption>Candles</caption>
+     <!--Add the form here-->
+    <h3>Enter your name and phone number to win a gift!</h3>
+    <form action="#">
+      <label for="Name">Name:</label>
+      <input type="text" id="Name" name="Name" placeholder="Name" size="25" aria-required="true" required>
+      <br>
+      <br>
+      <label for="Phone">Phone Number:</label>
+      <input type="tel" id="Phone" name="Phone" placeholder="123-456-7890" size="25" aria-required="true" required>
+      <br>
+      <br>
+      <button type="submit" class="button">Submit</button>
+    </form>
+   
+    <div class="whitespace"></div>
+    <a href="https://teachaccess.github.io/tutorial/#/12">Click here to find more about accessibility</a>
+    <div class="whitespace"></div>
+
+    <a href="https://dequeuniversity.com/rules/axe/3.2/color-contrast"> Find out if your font
+      color and background color passes WCAG standard!</a>
+  </main>
+
+  <footer>
+    <br>
+      <nav>
+          <a href="https://webpages.uncc.edu/skothi" target="_blank">Charlotte.edu</a>
+          ||
+          <a href="https://github.com/skothi-beep" target="_blank">Github</a>
+          ||
+          <a href="https://skothi-beep.github.io/" target="_blank">Github.io</a>
+          ||
+          <a href="https://skothi-beep.github.io/itis3135/" target="_blank">ITIS 3135 Github Pages</a>
+          ||
+          <a href="https://www.freecodecamp.org/shriyakothi" target="_blank">freeCodeCamp</a>
+      </nav>
+      <br>
+      <p>Page built by Skothi Industries</p>
+      <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fwebpages.uncc.edu%2Fskothi%2Fitis3135%2FAccessibility%2FKothi-Activity_Accessibility.html"> 
+          <img src = "https://jigsaw.w3.org/css-validator/images/vcss" width="88" height="31" alt="Link to HTML validator">
+      </a>
+      <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fwebpages.uncc.edu%2Fskothi%2Fitis3135%2FAccessibility%2FKothi-Activity_Accessibility.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">
+          <img src="https://jigsaw.w3.org/css-validator/images/vcss-blue" width="88" height="31" alt="Link to CSS validator">
+      </a>
+  </footer>
+</body>
+</html>
