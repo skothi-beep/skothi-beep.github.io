@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang = "en">
+    <head>
+        <meta charset = "UTF-8"> 
+        <title>Sapphire Kangaroo - Contact</title>
+        <script src="scripts/w3.js"></script>
+        <script src="scripts/brand.js"></script>
+        <link href="styles/default.css" rel="stylesheet" type="text/css">
+    <!--- https://coolors.co/000505-489fb5-a93f55-f4a5ae-c8bfc7 -->
+        
+    </head>
+    
+    <body>
+        <header>
+            <div w3-include-html="components/header.html"></div>
+        </header>
+
+        <nav>
+            <div w3-include-html="components/menu.html"></div>
+        </nav>
+
+        <main>
+            <div class="container">
+                <img src = "images/contact.jpg" alt = "Contact Us" class="imgSize">
+                <div class="top-left">Contact Us</div>
+            </div>
+
+            <p class="contact">
+                Address: 942 Wilson Ln, Palm Springs, CA 92262
+                <br>
+                Email: sKanagrooInc@support.com
+                <br>
+                Phone: 536-877-3231
+            </p>
+            
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3314.1877937254458!2d-116.49588708569962!3d33.8332673366871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80db1c66d17fe0c1%3A0x73678964896a92ec!2s942%20Wilson%20Ln%2C%20Palm%20Springs%2C%20CA%2092262!5e0!3m2!1sen!2sus!4v1632067034258!5m2!1sen!2sus" 
+            width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+
+            <h2>Contact Sapphire Kangaroo</h2>
+            <form name="contactInfo" action="#" method="post" class="form">
+                <label for="Name">Name:</label>
+                <input type="text" id="Name" name="Name" placeholder="name" size="25" required>
+                <label for="Email">Email:</label>
+                <input type="email" id="Email" name="Email" placeholder="email" size="25" required>
+
+                <br>
+                
+                <p>Do you prefer to travel to warm or cold places?</p>
+                <label for="Warm">
+                    <input id="Warm" type="radio" name="Weather" value="Warm">Somewhere Warm
+                </label>
+                <label for="Cold">
+                    <input id="Cold" type="radio" name="Weather" value="Cold">Somewhere Cold
+                </label>
+
+                <br>
+            
+                <p>What type of getaway/vacation are you looking for? Choose all that apply.</p>
+                <label for="Honeymoon">
+                <input id="Honeymoon" type="checkbox" name="vacationType" value="Romantic/Honeymoon Getaway">Romantic/Honeymoon Getaway
+                </label>
+                <label for="Family">
+                    <input id="Family" type="checkbox" name="vacationType" value="Family-Reunion Getaway">Family-Reunion Getaway
+                </label>
+                <label for="Friends">
+                    <input id="Friends" type="checkbox" name="vacationType" value="Friends Getaway">Friends Getaway
+                </label>
+
+                <br>
+
+                <p>What part of the world would you like to visit? Select one.</p>
+                <label for="visit"></label>
+                <select name="visit" id="visit">
+                <option value="Middle-East">Middle East Countries</option>
+                <option value="Eastern Countries">Eastern Countries</option>
+                <option value="Southwestern">Southwestern Countries</option>
+                <option value="Northern">Northern Countries</option>
+                </select>
+
+                <br>
+
+                <button onclick="displayInfo()" type="button">Submit</button>
+                <p id="info"></p>
+
+            </form>
+
+        </main>
+
+        <footer class="footer">
+            <div w3-include-html="components/footer.html"></div>
+            <a href="https://validator.w3.org/nu/?doc=https%3A%2F%2Fwebpages.uncc.edu%2Fskothi%2Fitis3135%2Fbrand%2Fcontact.html"> Validate HTML </a>
+            <a href="https://jigsaw.w3.org/css-validator/validator?uri=https%3A%2F%2Fwebpages.uncc.edu%2Fskothi%2Fitis3135%2Fbrand%2Fstyles%2Fdefault.css&profile=css3svg&usermedium=all&warning=1&vextwarning=&lang=en">Validate CSS </a>
+        </footer>
+        <script>
+            w3.includeHTML();
+        </script>
+        
+    </body>
+    
+</html>

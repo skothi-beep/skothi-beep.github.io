@@ -1,0 +1,152 @@
+/* https://coolors.co/000505-489fb5-a93f55-f4a5ae-c8bfc7 */
+
+body {
+    background-color: #a93f55;
+}
+
+header {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.homeInfo {
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-right: 200px;
+    margin-left: 200px;
+    background-color: #489fb5;
+    border-width: 10px;
+    border-style: outset;
+    border-color: #c8bfc7;
+}
+
+h2 {
+    text-align: center;
+    color: #000505;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
+.services {
+    margin-left: 450px;
+    margin-right: 450px;
+    background-color: #f4a5ae;
+    border-style: solid;
+    border-color: #000505;
+    border-width: 5px;
+    list-style-type: square;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+nav {
+    text-align: center;
+}
+
+.contact {
+    background-color: #f4a5ae;
+    border-color: #000505;
+    border-style: solid;
+    text-align: center;
+    border-width: 5px;
+    margin-left: 300px;
+    margin-right: 300px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+iframe {
+    margin-left: 550px;
+    margin-right: 550px;
+}
+.footer {
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+a {
+    text-decoration: none;
+    color: #c8bfc7;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #f4a5ae;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: black;
+    font: bold;
+    font-size: xx-large;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+/* https://www.w3schools.com/howto/howto_css_image_text.asp */
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 190px;
+}
+
+.center {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.imgSize {
+    width: 900px;
+    height: 400px;
+}
+
+/* https://lenadesign.org/2021/07/14/how-to-create-a-responsive-zig-zag-layout/ */
+
+* {
+    box-sizing:border-box;
+  }
+  
+body {
+    margin: 0;
+    font-family: tahoma;
+}
+  
+.content-container {
+    padding: 20px;
+}
+  
+.col-container:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+  
+.column-one {
+    float: left;
+    width: 50%;
+    padding: 25px;
+}
+  
+.column-two {
+    float: left;
+    width: 50%;
+    padding: 25px;
+}
+  
+@media screen and (max-width: 800px) {
+    .column-one,
+    .column-two {
+      width: 100%;
+    }
+}
+
+.form {
+    text-align: center;
+    border-style: solid;
+    border-width: 5px;
+    margin-right: 200px;
+    margin-left: 200px;
+    background-color: #489fb5;
+
+}
+

@@ -6,13 +6,17 @@ body {
 }
 
 h1, h2, h3 {
-    font-family: Verdana;
+    font-family: Georgia, 'Times New Roman', Times, serif;
     text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 p {
     font-weight: bold;
     text-align: center;
+    margin-right: 200px;
+    margin-left: 200px;
 }
 
 a {
@@ -32,8 +36,10 @@ header {
 }
 
 nav {
+    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
-    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
 }
 
 figure {
@@ -165,4 +171,15 @@ footer {
         text-align: center;
         font: bold;
         font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+/*ITIS 3135 Activity 9 css */
+    .imgSize {
+        width: 400px;
+        height: 400px;
+    }
+
+    .slideshowlist {
+        margin-left: 500px;
+        margin-right: 500px;
     }
