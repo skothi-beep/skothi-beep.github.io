@@ -1,0 +1,92 @@
+/* https://coolors.co/9dd685-aa222d-518ba4-ffffff-21a179 */
+
+body {
+    background-color: #21a179;
+}
+
+header {
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.homeInfo {
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 20px;
+    margin-right: 300px;
+    background-color: #b94e57;
+    border-width: 10px;
+    border-style: outset;
+    border-color: #ffffff;
+}
+
+
+h1>img{
+    float: right;
+    border-color: #9dd685;
+    border-width: 15px;
+    border-radius: 50%;
+    border-style: ridge;
+}
+
+h2, h3 {
+    text-align: center;
+    color: #000505;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+nav {
+    text-align: center;
+}
+
+.topNav {
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-left: 20px;
+    margin-right: 300px;
+    background-color: #9dd685;
+    border-width: 10px;
+    border-style: outset;
+    border-color: #ffffff;
+}
+
+.bx-wrapper {
+    margin-left: 180px;
+    border: 10px  #21a179 !important;
+    background: #9dd685 !important;
+    border-style: double !important;
+}
+
+
+.contact {
+    background-color: #f4a5ae;
+    border-color: #000505;
+    border-style: solid;
+    text-align: center;
+    border-width: 5px;
+    margin-left: 300px;
+    margin-right: 300px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+footer {
+    text-align: center;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+a {
+    text-decoration: none;
+    color: #aa222d;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #f4a5ae;
+}
+
+
+
